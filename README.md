@@ -36,7 +36,5 @@ This questions will guide the future marketing program:
      
       - How does weather or seasonal variations impact the usage patterns of annual members and casual riders?
      
-      - Do annual members and casual riders exhibit different trends in ride patterns over time?
-     
       - Are there distinct preferences or behaviors in terms of bike usage during weekdays versus weekends for annual members and casual riders?
 

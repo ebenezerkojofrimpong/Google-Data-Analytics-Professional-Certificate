@@ -64,3 +64,24 @@ The dataset contains 9999 rows and 21 columns.
 
 #### `Features:`
 
+**Row ID** => Unique ID for each row.
+
+**Order ID** => Unique Order ID for each Customer.
+
+**Order Date** => Order Date of the product.
+
+**Ship Date** => Shipping Date of the Product.
+
+**Ship Mode** => Shipping Mode specified by the Customer.
+
+**Customer ID** => Unique ID to identify each Customer.
+
+**Customer Name** => Name of the Customer.
+
+**Segment** => The segment where the Customer belongs.
+
+**Country** => Country of residence of the Customer.
+
+**City** => City of residence of of the Customer.
+
+**State** => State of residence of the Customer.

@@ -15,3 +15,28 @@ This study involves an in-depth examination of user behavior, trip patterns, and
 We will resolve this case following this methodology:
 
 `ASK, PREPARE, PROCESS, ANALYSE, SHARE AND ACT`
+
+---
+
+## **ASK**
+This phase involves defining the issue to be solved, identifying stakeholders and what their expectations from the project are.
+
+This questions will guide the future marketing program:
+1. How do annual members and casual riders use Cyclistic bikes differently?
+     
+      - How frequently do annual members and casual riders utilize Cyclistic bikes within a given time frame?
+     
+      - Are there specific days or times when annual members or casual riders are more active?
+     
+      - What are the most common starting and ending points for trips taken by annual members and casual riders?
+     
+      - Do annual members and casual riders prefer different types of bikes or routes?
+     
+      - Are there significant differences in the distances covered by annual members and casual riders?
+     
+      - How does weather or seasonal variations impact the usage patterns of annual members and casual riders?
+     
+      - Do annual members and casual riders exhibit different trends in ride patterns over time?
+     
+      - Are there distinct preferences or behaviors in terms of bike usage during weekdays versus weekends for annual members and casual riders?
+

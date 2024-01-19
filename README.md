@@ -37,4 +37,16 @@ This questions will guide the future marketing program:
       - How does weather or seasonal variations impact the usage patterns of annual members and casual riders?
      
       - Are there distinct preferences or behaviors in terms of bike usage during weekdays versus weekends for annual members and casual riders?
+  
+### Business Task
+Analyze and leverage key drivers of sales performance, including product contribution to sales, seasonal sales patterns, and customer segmentation.
 
+### Key Stakeholders
+- **Lily Moreno**: The director of marketing and manager. Moreno is responsible for the development of campaigns and
+initiatives to promote the bike-share program. These may include email, social media, and other channels.
+
+- **Cyclistic marketing analytics team**: A team of data analysts who are responsible for collecting, analyzing, and reporting
+data that helps guide Cyclistic marketing strategy. 
+
+- **Cyclistic executive team**: The notoriously detail-oriented executive team will decide whether to approve the
+recommended marketing program.

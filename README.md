@@ -85,3 +85,80 @@ The dataset contains 9999 rows and 21 columns.
 **City** => City of residence of of the Customer.
 
 **State** => State of residence of the Customer.
+
+---
+
+## **ANALYZE**
+
+In this phase we analyze the data using statistical methods to find patterns, relationships, and trends.
+
+
+**Outlined below are the key takeaways derived from the analysis of the data:**
+
+```sql
+------- FINDING THE NUMBER OF MEMBER AND CASUAL RIDERS BY RIDE COUNT
+CREATE OR REPLACE TABLE nimble-root-410821.project1.percentage_table AS --- Creating percentage_table
+SELECT
+  DISTINCT member_casual,
+  COUNT(*) AS ride_count,
+  ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM final_data),2) AS percentage_count,
+  SUM(ride_length_minutes) AS time_spent,
+  ROUND(SUM(ride_length_minutes) * 100.0 / (SELECT SUM(ride_length_minutes) FROM final_data),2) AS percentage_time_spent
+FROM final_data
+GROUP BY
+  member_casual;
+
+```
+![](Number_Rides_and_Time_Spent_by_Membership)
+![Screenshot 2024-01-19 220503](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/32b68fd1-e4a6-40be-9357-07e317602925)
+
+[](Average_Ride_Length_by_Month_and_Day)
+![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/b50a942d-9102-4aa8-a493-b6e4b7912cce)
+
+[](Total_Rides_by_Month_and_Day)
+![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/293a836d-8e47-4123-a0bb-4ccfe1a168ca)
+
+
+[](Average_Ride_Length_by_Bike_Type_and_Time_Period)
+![Average Ride Count by Bike Type and Time Period](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/b5d42646-42fa-4a53-8129-477850ed573a)
+
+[](Q1_Total_Ride_and_Average_Ride)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/04ca3402-5c5d-44fa-a33b-048ea850894c)
+
+[](Q2_Total_Ride_and_Average_Ride)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/fb1cf1a5-6bd3-4a6b-9b13-44364e39f05a)
+
+[](Q3_Total_Ride_and_Average_Ride)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/df30755a-1671-4d4f-97d8-ce44fd367b00)
+
+[](Q4_Total_Ride_and_Average_Ride)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0528b67d-b522-41ce-ae15-f3e6d7c936ba)
+
+
+[](Qtr1_Top_10_Rides_Member_Casual)
+![Screenshot 2024-01-20 003648](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/445b4f61-1196-4b4c-a40a-9cefd671dec8)
+
+
+[](Qtr2_Top_10_Rides_Member_Casual)
+![Screenshot 2024-01-20 004636](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/1a94f1cd-e756-4527-9fd9-7ebc7e0acb52)
+
+
+
+[](Qtr3_Top_10_Rides_Member_Casual)
+![Screenshot 2024-01-20 005046](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/5cf2f5c0-651d-45b1-91b2-42ac89748206)
+
+
+[](Qtr4_Top_10_Rides_Member_Casual)
+![Screenshot 2024-01-20 005714](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/f12aa59f-6999-4c86-8db5-6d821645f7c9)
+
+
+
+
+
+
+
+
+
+
+
+

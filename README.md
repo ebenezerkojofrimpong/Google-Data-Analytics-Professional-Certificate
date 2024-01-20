@@ -122,17 +122,26 @@ GROUP BY
 [](Average_Ride_Length_by_Bike_Type_and_Time_Period)
 ![Average Ride Count by Bike Type and Time Period](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/b5d42646-42fa-4a53-8129-477850ed573a)
 
+
 [](Q1_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/04ca3402-5c5d-44fa-a33b-048ea850894c)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/db670946-8af3-4589-a6e0-f51c2cc951b3)
+
+
 
 [](Q2_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/fb1cf1a5-6bd3-4a6b-9b13-44364e39f05a)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/6141c6b9-ec8e-4e5f-88f2-71e1f8fbf400)
+
+
 
 [](Q3_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/df30755a-1671-4d4f-97d8-ce44fd367b00)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/32edef11-2091-404e-904d-972aaba6b6b8)
+
 
 [](Q4_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0528b67d-b522-41ce-ae15-f3e6d7c936ba)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/7d9220f0-de6a-4b0a-9103-c54eea1a15da)
+
+
+
 
 
 [](Qtr1_Top_10_Rides_Member_Casual)

@@ -169,6 +169,9 @@ The "total rides by day" chart shows Member ridership is highest on Thursdays, c
 [](Total_Ride_Count_by_Bike_Type)
 ![Total Ride Count by Bike Type](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0c06f765-9fb3-4dcc-9d5f-fb1f80c8fbf4)
 
+The chart indicates that classic bikes are the most popular choice among both member and casual riders, with electric bikes being the second most preferred option. Interestingly, docked bikes are the least used, especially by casual riders, and electric bikes are not used by member riders at all. This suggests a clear preference for classic bikes among riders, while docked bikes seem to have lower overall usage, particularly among casual riders.
+
+---
 
 
 

@@ -109,14 +109,66 @@ GROUP BY
   member_casual;
 
 ```
+
 ![](Number_Rides_and_Time_Spent_by_Membership)
 ![Screenshot 2024-01-19 220503](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/32b68fd1-e4a6-40be-9357-07e317602925)
+
+Based on the chart, member riders took almost 2/3 of total rides but contributed only slightly more than half of total ride time, suggesting members take more frequent but shorter rides compared to casual riders who make up over 1/3 of rides but nearly 1/2 of total ride time.
+
+---
+     
+
+```sql
+-------- CHECKING NUMBER OF RIDES AND RIDE LENGTH BY MONTH AND BY DAY: CASUAL VS MEMBER
+CREATE OR REPLACE TABLE nimble-root-410821.project1.avg_ride_table AS
+SELECT
+  start_station_name,
+  rideable_type,
+  date,
+  member_casual,
+  day_of_week,
+  time_period,
+  month,
+  COUNT(*) AS ride_count,
+  ROUND(AVG(ride_length_minutes),2) AS avg_ride
+FROM final_data
+GROUP BY
+  start_station_name,
+  rideable_type,
+  date,
+  member_casual,
+  day_of_week,
+  time_period,
+  month
+ORDER BY
+  ride_count DESC;  
+
+```
 
 [](Average_Ride_Length_by_Month_and_Day)
 ![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/b50a942d-9102-4aa8-a493-b6e4b7912cce)
 
+The "average ride length by month" chart shows that January has the shortest rides for both member and casual riders. August is the peak month for member ride length, while casual riders have their longest average rides in July. From the August and July high points, there is a decreasing trend in average ride length for both members and casuals that continues through November and December.
+
+The "average ride length by day" chart shows member riders have the shortest average ride times on Mondays, likely due to individuals beginning their workweek. Across the week, member ride lengths remain steady with the highest averages on Saturdays and Sundays. In contrast, casual riders reach their lowest point midweek on Wednesdays and hit their peaks on the weekends along with members. 
+
+
+---
+
+
 [](Total_Rides_by_Month_and_Day)
 ![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/293a836d-8e47-4123-a0bb-4ccfe1a168ca)
+
+The "total rides by month" chart shows January has the lowest total number of rides for both member and casual riders. For members, the peak in total rides occurs in August, while casual riders reach their peak total rides in July. There is a decreasing trend through December for total rides among both member and casual rider segments.
+
+
+
+
+
+
+
+
+
 
 
 [](Average_Ride_Length_by_Bike_Type_and_Time_Period)

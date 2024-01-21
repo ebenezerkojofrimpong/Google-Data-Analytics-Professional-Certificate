@@ -166,7 +166,7 @@ The "total rides by day" chart shows Member ridership is highest on Thursdays, c
 ---
 
 
-[](Average_Ride_Length_by_Bike_Type_and_Time_Period)
+[](Average_Ride_Count_by_Bike_Type_and_Time_Period)
 ![Average Ride Count by Bike Type and Time Period](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/b5d42646-42fa-4a53-8129-477850ed573a)
 
 

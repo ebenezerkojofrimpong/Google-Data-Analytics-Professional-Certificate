@@ -173,7 +173,66 @@ The chart indicates that classic bikes are the most popular choice among both me
 
 ---
 
+```sql
+-------- CHECKING MOST ROOTS BY MONTH AND DAY (MEMBER)
+CREATE OR REPLACE TABLE nimble-root-410821.project1.member_table AS --- Creating member_table
+SELECT  
+  start_station_name,
+  end_station_name,
+  rideable_type,
+  date,
+  day_of_week,
+  time_period,
+  member_casual,
+  COUNT(*) AS ride_count,
+  AVG(ride_length_minutes) AS avg_ride
+FROM final_data
+WHERE
+  member_casual = 'member'
+GROUP BY
+  start_station_name,
+  end_station_name,
+  rideable_type,
+  date,
+  day_of_week,
+  time_period,
+  month,
+  member_casual
+ORDER BY
+  ride_count DESC;
 
+
+
+-------- CHECKING MOST ROOTS BY MONTH AND DAY (CASUAL)
+CREATE OR REPLACE TABLE nimble-root-410821.project1.casual_table AS --- Creating casual_table
+SELECT  
+  start_station_name,
+  end_station_name,
+  rideable_type,
+  date,
+  day_of_week,
+  time_period,
+  month,
+  member_casual,
+  COUNT(*) AS ride_count,
+  AVG(ride_length_minutes) AS avg_ride
+FROM final_data
+WHERE
+  member_casual = 'casual'
+GROUP BY
+  start_station_name,
+  end_station_name,
+  rideable_type,
+  date,
+  day_of_week,
+  time_period,
+  month,
+  member_casual
+ORDER BY
+  ride_count DESC;
+
+
+```
 
 
 

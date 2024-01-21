@@ -174,6 +174,31 @@ The chart indicates that classic bikes are the most popular choice among both me
 ---
 
 ```sql
+-------- CHECKING NUMBER OF RIDES AND RIDE LENGTH BY MONTH AND BY DAY: CASUAL VS MEMBER
+CREATE OR REPLACE TABLE nimble-root-410821.project1.avg_ride_table AS
+SELECT
+  start_station_name,
+  rideable_type,
+  date,
+  member_casual,
+  day_of_week,
+  time_period,
+  month,
+  COUNT(*) AS ride_count,
+  ROUND(AVG(ride_length_minutes),2) AS avg_ride
+FROM final_data
+GROUP BY
+  start_station_name,
+  rideable_type,
+  date,
+  member_casual,
+  day_of_week,
+  time_period,
+  month
+ORDER BY
+  ride_count DESC;  
+
+
 -------- CHECKING MOST ROOTS BY MONTH AND DAY (MEMBER)
 CREATE OR REPLACE TABLE nimble-root-410821.project1.member_table AS --- Creating member_table
 SELECT  
@@ -238,10 +263,7 @@ ORDER BY
 [](Q1_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/db670946-8af3-4589-a6e0-f51c2cc951b3)
 
-
-
-
-
+Member ridership peaks on Tuesdays and fluctuates during weekdays, sharply declining on weekends, with a consistent average ride length throughout the week. In contrast, casual riders maintain low ride counts on weekdays but experience higher average ride lengths, especially with notable peaks on weekends.
 
 [](Qtr1_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-20 003648](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/445b4f61-1196-4b4c-a40a-9cefd671dec8)

@@ -235,11 +235,30 @@ ORDER BY
 ```
 
 
-
-
-
 [](Q1_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/db670946-8af3-4589-a6e0-f51c2cc951b3)
+
+
+
+
+
+
+[](Qtr1_Top_10_Rides_Member_Casual)
+![Screenshot 2024-01-20 003648](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/445b4f61-1196-4b4c-a40a-9cefd671dec8)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -259,8 +278,6 @@ ORDER BY
 
 
 
-[](Qtr1_Top_10_Rides_Member_Casual)
-![Screenshot 2024-01-20 003648](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/445b4f61-1196-4b4c-a40a-9cefd671dec8)
 
 
 [](Qtr2_Top_10_Rides_Member_Casual)

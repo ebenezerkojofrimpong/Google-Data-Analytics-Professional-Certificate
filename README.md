@@ -161,18 +161,20 @@ The "average ride length by day" chart shows member riders have the shortest ave
 
 The "total rides by month" chart shows January has the lowest total number of rides for both member and casual riders. For members, the peak in total rides occurs in August, while casual riders reach their peak total rides in July. There is a decreasing trend through December for total rides among both member and casual rider segments.
 
+The "total rides by day" chart shows Member ridership is highest on Thursdays, consistent on weekdays, and decreases on weekends. This indicates members are likely commuters using bikes to travel to and from work. In contrast, Casual ridership is lowest on Mondays, increases steadily during the week, and peaks on Saturdays. Casual users likely ride recreationally, with weekend days being most popular.
 
-
-
-
-
-
-
-
+---
 
 
 [](Average_Ride_Length_by_Bike_Type_and_Time_Period)
 ![Average Ride Count by Bike Type and Time Period](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/b5d42646-42fa-4a53-8129-477850ed573a)
+
+
+
+
+
+
+
 
 
 [](Q1_Total_Ride_and_Average_Ride)

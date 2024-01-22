@@ -295,7 +295,7 @@ During spring, member ridership exhibits fluctuation throughout weekdays, reachi
 [](Qtr3_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 103958](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/323fb0a6-9f95-4435-ab66-30847d2e0a95)
 
-Members show a notable presence on popular routes, resembling those observed during the spring, but with significantly higher ride counts. The routes continue to include a mix of commuting and work-related hubs alongside recreational paths. Similarly, casual riders exhibit preferences for recreational and sightseeing paths.
+Members show a notable presence on popular routes, resembling those observed during the spring, but with significantly higher ride counts. The routes continue to include a mix of commuting and work-related hubs alongside recreational paths. Similarly, casual riders exhibit preferences for recreational and sightseeing paths echoing patterns observed in spring.
 
 ---
 
@@ -308,7 +308,7 @@ During spring, member ridership exhibits fluctuations throughout weekdays, reach
 [](Qtr4_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 105025](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0ca83f59-b6a3-4843-8342-84a42fe57054)
 
-Members are prominently present on popular routes, similar to patterns observed in winter but with considerably higher ride counts. These routes predominantly encompass commuting and work-related paths. In contrast, casual riders display preferences for both work-related hubs and recreational or sightseeing paths, echoing patterns observed in winter.
+Members are prominently present on popular routes, similar to patterns observed in winter but with considerably higher ride counts. These routes predominantly encompass commuting and work-related paths. In contrast, casual riders display preferences for both work-related hubs and recreational or sightseeing paths with most routes being recreational paths. 
 
 
 

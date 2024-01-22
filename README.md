@@ -108,10 +108,83 @@ This phase of the analysis process includes cleaning the data and making sure it
 
 A summary of the cleaning and manipulation done to the data is presented below:
 
-1.	Removed 5 duplicate values which reduced the number of rows from 9999 to 9994.
+1.	Removed 5 Null values which reduced the number of rows from 5,719,877  to 9994.
 2.	No blank row found in dataset.
 3.	Checked for consistency of ship_date and order_date (Nested the IF() and OR() functions to ensure ship_date is greater than or equal to order_date).
 4.	Changed sales and profit columns General datatype to currency datatype.
+
+The Data Cleaning Process:
+
+1. Putting all the datasets into one table
+
+```sql
+------------------------------------ DATA CLEANING PROCESS ----------------------------------
+
+------- CREATING A TEMP TABLE TO AVOID INCONSISTENCY IN DATATYPES
+
+CREATE OR REPLACE TEMP TABLE combined_data (
+  ride_id STRING,
+  rideable_type STRING,
+  started_at TIMESTAMP,
+  ended_at TIMESTAMP,
+  start_station_name STRING,
+  start_statiion_id STRING,
+  end_station_name STRING,
+  end_station_id STRING,
+  start_lat FLOAT64,
+  start_lng FLOAT64,
+  end_lat FLOAT64,
+  end_lng FLOAT64,
+  member_casual STRING
+
+);
+
+------- INSERTING ALL TABLES INTO TEMP TABLE
+INSERT INTO combined_data
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_01` 
+  UNION ALL
+  SELECT * 
+  FROM `nimble-root-410821.project1.2023_02`
+  UNION ALL 
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_03`
+  UNION ALL
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_04`
+  UNION ALL
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_05`
+  UNION ALL  
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_06`
+  UNION ALL
+  SELECT * 
+  FROM `nimble-root-410821.project1.2023_07`
+  UNION ALL
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_08`
+  UNION ALL
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_09` 
+  UNION ALL
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_10`
+  UNION ALL
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_11`
+  UNION ALL
+  SELECT *
+  FROM `nimble-root-410821.project1.2023_12` ;
+
+
+------- CHECKING ROWS AND COLUMNS
+
+SELECT *
+FROM combined_data;
+
+
+```
 
 ---
 

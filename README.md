@@ -268,7 +268,7 @@ During winter, Member ridership fluctuates during weekdays and peaks on Tuesdays
 [](Qtr1_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 011916](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/7bae64cb-1d35-44e6-9eb5-98e8f59cca4c)
 
-Members favor routes connecting residential areas to major work hubs and transit centers like Ellis Ave & 60th St, University Ave & 57th St and Clinton St & Washington Blvd. This indicates members rely heavily on cycling for daily commuting and utility transportation. In contrast, casual riders prefer recreational routes including Streeter Dr & Grand Ave, Shedd Aquarium, and Dusable Lake Shore Dr & Monroe St which follow scenic lakefront paths and lead to popular tourist spots. The member route preferences point to cycling as a commuting tool while casual routes suggest leisurely sightseeing. 
+Members favor routes connecting residential areas to major work hubs and transit centers like Ellis Ave & 60th St, University Ave & 57th St and Clinton St & Washington Blvd. This indicates members rely heavily on cycling for daily commuting and utility transportation. In contrast, casual riders have a mix of work-related hubs such as university Ave & 57th St and recreational routes including Streeter Dr & Grand Ave, Shedd Aquarium, and Dusable Lake Shore Dr & Monroe St which follow scenic lakefront paths and lead to popular tourist spots. The member route preferences point to cycling as a commuting tool while casual routes suggest leisurely sightseeing. 
 
 ---
 
@@ -281,7 +281,7 @@ During spring, member ridership exhibits fluctuation throughout weekdays, reachi
 [](Qtr2_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 093816](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/38ab0d7c-3145-419b-afd7-952f4e27f8e3)
 
-Members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
+For members, there is a significant presence of recreational routes in addition to commuting and work-related hubs. In contrast, casual riders tend to prefer more recreational and sightseeing paths,
 
 ---
 
@@ -295,23 +295,20 @@ During spring, member ridership exhibits fluctuation throughout weekdays, reachi
 [](Qtr3_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 103958](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/323fb0a6-9f95-4435-ab66-30847d2e0a95)
 
-Members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
+Members show a notable presence on popular routes, resembling those observed during the spring, but with significantly higher ride counts. The routes continue to include a mix of commuting and work-related hubs alongside recreational paths. Similarly, casual riders exhibit preferences for recreational and sightseeing paths.
 
 ---
 
 [](Q4_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/4d3403ca-ae05-4550-b6be-81b67454a48b)
 
-During spring, member ridership exhibits fluctuation throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
+During spring, member ridership exhibits fluctuations throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
 
 
 [](Qtr4_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 105025](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0ca83f59-b6a3-4843-8342-84a42fe57054)
 
-Members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
-
-
-
+Members are prominently present on popular routes, similar to patterns observed in winter but with considerably higher ride counts. These routes predominantly encompass commuting and work-related paths. In contrast, casual riders display preferences for both work-related hubs and recreational or sightseeing paths, echoing patterns observed in winter.
 
 
 

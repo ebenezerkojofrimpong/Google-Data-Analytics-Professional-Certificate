@@ -270,7 +270,7 @@ Member ridership peaks on Tuesdays and fluctuates during weekdays, sharply decli
 
 Members favor routes connecting residential areas to major work hubs and transit centers like Ellis Ave & 60th St, University Ave & 57th St and Clinton St & Washington Blvd. This indicates members rely heavily on cycling for daily commuting and utility transportation. In contrast, casual riders prefer recreational routes including Streeter Dr & Grand Ave, Shedd Aquarium, and Dusable Lake Shore Dr & Monroe St which follow scenic lakefront paths and lead to popular tourist spots. The member route preferences point to cycling as a commuting tool while casual routes suggest leisurely sightseeing. 
 
-
+---
 
 
 

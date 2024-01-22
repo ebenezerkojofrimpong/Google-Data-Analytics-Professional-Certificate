@@ -317,31 +317,26 @@ Members are prominently present on popular routes, similar to patterns observed 
 ## ACT
 Upon completion of data processing, analysis, and insight dissemination, the conclusive phase involves formulating a well-aligned course of action for Cyclistic Bike-Share, congruent with its business goals and mission. My recommendations are as follows:
 
+1. Highlight the benefits of membership by making sure casual riders are aware of the benefits of becoming a member, such as discounted ride rates.
 
+2. Focus the marketing campaign during the period from Spring to the end of Summer, considering that most casual riders actively use the service during this timeframe.
 
+3. Offer discounted annual memberships during peak casual riding seasons in July and August to capture interest when ride counts are highest.
 
+4. Run targeted promotions on weekends when casual usage peaks to motivate sign-ups. Emphasize the convenience of unlimited rides.
 
-
-
-
-
-
-
-
-
-
+5. With the prevalence of classic bikes, ensure adequate availability across the network, particularly at stations along high casual usage routes.
 
 
  ---
  
 ## CONCLUSION
-Throughout the duration of this project, I have effectively utilized Excel to carry out tasks such as data cleansing, processing, analysis, and data visualization. These efforts have enabled me to extract valuable insights from the data in alignment with the principles of the Google Data Analytics Certification program.
+
+During this project, I successfully employed BigQuery for data cleansing, processing, and analysis, alongside Tableau for data visualization. These tools were instrumental in extracting valuable insights from the data, aligning with the principles of the Google Data Analytics Professional Certification program.
 
 ---
 
 ## REFERENCES
-
-**Emmanuel Anene**: Data Analytics Project: Sales Analysis Report [LINK](https://emmanuelanenee.medium.com/data-analytics-project-sales-analysis-report-7a718049fecc)
 
 **Google Data Analytics Professional Certificate**.
 

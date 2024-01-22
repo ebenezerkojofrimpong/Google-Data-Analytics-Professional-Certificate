@@ -281,38 +281,45 @@ During spring, member ridership exhibits fluctuation throughout weekdays, reachi
 [](Qtr2_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 093816](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/38ab0d7c-3145-419b-afd7-952f4e27f8e3)
 
+members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
 
-
-
-
-
-
-
-
-
+---
 
 [](Q3_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/32edef11-2091-404e-904d-972aaba6b6b8)
-
-
-[](Q4_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/7d9220f0-de6a-4b0a-9103-c54eea1a15da)
-
-
-
-
-
-
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/bc78a446-a391-40f5-a131-8af4cfdede3e)
 
 
 
 
 [](Qtr3_Top_10_Rides_Member_Casual)
-![Screenshot 2024-01-20 005046](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/5cf2f5c0-651d-45b1-91b2-42ac89748206)
+![Screenshot 2024-01-22 103958](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/323fb0a6-9f95-4435-ab66-30847d2e0a95)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[](Q4_Total_Ride_and_Average_Ride)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/4d3403ca-ae05-4550-b6be-81b67454a48b)
+
+
+
+
+
+
 
 
 [](Qtr4_Top_10_Rides_Member_Casual)
-![Screenshot 2024-01-20 005714](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/f12aa59f-6999-4c86-8db5-6d821645f7c9)
+![Screenshot 2024-01-22 105025](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0ca83f59-b6a3-4843-8342-84a42fe57054)
 
 
 

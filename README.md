@@ -265,13 +265,10 @@ ORDER BY
 
 Member ridership peaks on Tuesdays and fluctuates during weekdays, sharply declining on weekends, with a consistent average ride length throughout the week. In contrast, casual riders maintain low ride counts on weekdays but experience higher average ride lengths, especially with notable peaks on weekends.
 
-
 [](Qtr1_Top_10_Rides_Member_Casual)
-
 ![Screenshot 2024-01-22 011916](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/7bae64cb-1d35-44e6-9eb5-98e8f59cca4c)
 
-
-
+Members favor routes connecting residential areas to major work hubs and transit centers like Ellis Ave & 60th St, University Ave & 57th St and Clinton St & Washington Blvd. This indicates members rely heavily on cycling for daily commuting and utility transportation. In contrast, casual riders prefer recreational routes including Streeter Dr & Grand Ave, Shedd Aquarium, and Dusable Lake Shore Dr & Monroe St which follow scenic lakefront paths and lead to popular tourist spots. The member route preferences point to cycling as a commuting tool while casual routes suggest leisurely sightseeing. 
 
 
 

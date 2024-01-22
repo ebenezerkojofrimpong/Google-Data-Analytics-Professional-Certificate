@@ -261,9 +261,9 @@ ORDER BY
 
 
 [](Q1_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/db670946-8af3-4589-a6e0-f51c2cc951b3)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/e5dfa5c1-182b-4647-9c1f-0b953ad7d3e4)
 
-Member ridership peaks on Tuesdays and fluctuates during weekdays, sharply declining on weekends, with a consistent average ride length throughout the week. In contrast, casual riders maintain low ride counts on weekdays but experience higher average ride lengths, especially with notable peaks on weekends.
+During winter, Member ridership fluctuates during weekdays and peaks on Tuesdays and sharply declining on weekends, with a consistent average ride length throughout the week. In contrast, casual riders maintain low ride counts on weekdays but experience higher average ride lengths, especially with notable peaks on weekends.
 
 [](Qtr1_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 011916](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/7bae64cb-1d35-44e6-9eb5-98e8f59cca4c)
@@ -272,19 +272,22 @@ Members favor routes connecting residential areas to major work hubs and transit
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
 [](Q2_Total_Ride_and_Average_Ride)
-![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/6141c6b9-ec8e-4e5f-88f2-71e1f8fbf400)
+![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/6183120b-b4da-47a7-8d42-ae77fe56f1d6)
+
+During spring, member ridership exhibits fluctuation throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
+
+
+[](Qtr2_Top_10_Rides_Member_Casual)
+![Screenshot 2024-01-22 093816](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/38ab0d7c-3145-419b-afd7-952f4e27f8e3)
+
+
+
+
+
+
+
+
 
 
 
@@ -301,8 +304,6 @@ Members favor routes connecting residential areas to major work hubs and transit
 
 
 
-[](Qtr2_Top_10_Rides_Member_Casual)
-![Screenshot 2024-01-20 004636](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/1a94f1cd-e756-4527-9fd9-7ebc7e0acb52)
 
 
 

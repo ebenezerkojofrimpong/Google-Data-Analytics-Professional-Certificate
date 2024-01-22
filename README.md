@@ -281,47 +281,34 @@ During spring, member ridership exhibits fluctuation throughout weekdays, reachi
 [](Qtr2_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 093816](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/38ab0d7c-3145-419b-afd7-952f4e27f8e3)
 
-members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
+Members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
 
 ---
 
 [](Q3_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/bc78a446-a391-40f5-a131-8af4cfdede3e)
 
+During spring, member ridership exhibits fluctuation throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
 
 
 
 [](Qtr3_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 103958](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/323fb0a6-9f95-4435-ab66-30847d2e0a95)
 
+Members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
 
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 [](Q4_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/4d3403ca-ae05-4550-b6be-81b67454a48b)
 
-
-
-
-
-
+During spring, member ridership exhibits fluctuation throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
 
 
 [](Qtr4_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 105025](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0ca83f59-b6a3-4843-8342-84a42fe57054)
 
-
+Members choose routes aligned with commuting and getting to work hubs, while casual riders favor more recreational, sightseeing paths.
 
 
 

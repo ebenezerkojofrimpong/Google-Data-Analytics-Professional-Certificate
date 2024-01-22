@@ -62,36 +62,62 @@ recommended marketing program.
 Involves collecting data and information and ensuring it satisfies necessary parameters.
 
 ### Data Location
-I'm using all the data for the 12 months of the year 2020. Data is stored in CSV file available [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data is public and made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). The privacy of the riders is safeguarded as there are no IDs and it's not possible to identify the riders.
+I'm using all the data for the 12 months of the year 2023. Data is stored in CSV file available [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data is public and made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). The privacy of the riders is safeguarded as there are no IDs and it's not possible to identify the riders.
 
 ### Data Organization
-The dataset contains 9999 rows and 21 columns.
+The dataset contains 5,719,877 Observations and 13 Attributes.
 
 #### `Features:`
 
-**Row ID** => Unique ID for each row.
+**ride_id** => Unique ID per ride
 
-**Order ID** => Unique Order ID for each Customer.
+**rideable_type** => Type of bicycle used
 
-**Order Date** => Order Date of the product.
+**started_at** => Date and time at which bicycle was checked out
 
-**Ship Date** => Shipping Date of the Product.
+**ended_at** => Date and time at which bicycle was checked in
 
-**Ship Mode** => Shipping Mode specified by the Customer.
+**start_station_name** => Name of the station at the start of the trip
 
-**Customer ID** => Unique ID to identify each Customer.
+**start_station_id** => Unique identifier for the start station
 
-**Customer Name** => Name of the Customer.
+**end_station_name** => Name of the station at the end of the trip
 
-**Segment** => The segment where the Customer belongs.
+**end_station_id** => Unique identifier for the end station
 
-**Country** => Country of residence of the Customer.
+**Start_lat** => Latitude of the start station
 
-**City** => City of residence of of the Customer.
+**start_lng** => Longitude of the start station
 
-**State** => State of residence of the Customer.
+**end_lat** => Latitude of the end station
+
+**end_lng** => Longitude of the end station
+
+**member_casual** => Rider type, Member or Casual
 
 ---
+
+## Tool
+The tools used in this project are BigQuery and Tableau.
+
+---
+
+
+## PROCESS
+This phase of the analysis process includes cleaning the data and making sure it is fit for purpose. As well as making any modifications necessary.
+
+A summary of the cleaning and manipulation done to the data is presented below:
+
+1.	Removed 5 duplicate values which reduced the number of rows from 9999 to 9994.
+2.	No blank row found in dataset.
+3.	Checked for consistency of ship_date and order_date (Nested the IF() and OR() functions to ensure ship_date is greater than or equal to order_date).
+4.	Changed sales and profit columns General datatype to currency datatype.
+
+---
+
+
+
+
 
 ## **ANALYZE**
 

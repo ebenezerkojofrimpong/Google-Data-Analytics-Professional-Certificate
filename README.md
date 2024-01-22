@@ -1,4 +1,9 @@
 # Google Data Analytics Professional Certificate - Capstone Project 1 - Cyclistic bike-share case study
+## Ebenezer Kojo Frimpoong
+## 01/22/24
+
+---
+
 ## Analysis On  Bike Sharing Data Using SQL and Tableau
 
 [](bike_share_pic)
@@ -96,7 +101,7 @@ In this phase we analyze the data using statistical methods to find patterns, re
 **Outlined below are the key takeaways derived from the analysis of the data:**
 
 ```sql
-------- FINDING THE NUMBER OF MEMBER AND CASUAL RIDERS BY RIDE COUNT
+------- FINDING THE PROPORTION OF MEMBER AND CASUAL RIDERS BY RIDE COUNT
 CREATE OR REPLACE TABLE nimble-root-410821.project1.percentage_table AS --- Creating percentage_table
 SELECT
   DISTINCT member_casual,

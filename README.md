@@ -167,11 +167,12 @@ The "total rides by day" chart shows Member ridership is highest on Thursdays, c
 
 
 [](Total_Ride_Count_by_Bike_Type)
-![Total Ride Count by Bike Type](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/0c06f765-9fb3-4dcc-9d5f-fb1f80c8fbf4)
+![Total RideS by Bike Type](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/94407fd8-8df8-4946-af53-7f5213b37095)
 
 The chart indicates that classic bikes are the most popular choice among both member and casual riders, with electric bikes being the second most preferred option. Interestingly, docked bikes are the least used, especially by casual riders, and electric bikes are not used by member riders at all. This suggests a clear preference for classic bikes among riders, while docked bikes seem to have lower overall usage, particularly among casual riders.
 
 ---
+
 
 ```sql
 -------- CHECKING NUMBER OF RIDES AND RIDE LENGTH BY MONTH AND BY DAY: CASUAL VS MEMBER
@@ -311,6 +312,38 @@ During spring, member ridership exhibits fluctuations throughout weekdays, reach
 Members are prominently present on popular routes, similar to patterns observed in winter but with considerably higher ride counts. These routes predominantly encompass commuting and work-related paths. In contrast, casual riders display preferences for both work-related hubs and recreational or sightseeing paths with most routes being recreational paths. 
 
 
+---
+
+## ACT
+Upon completion of data processing, analysis, and insight dissemination, the conclusive phase involves formulating a well-aligned course of action for Cyclistic Bike-Share, congruent with its business goals and mission. My recommendations are as follows:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ---
+ 
+## CONCLUSION
+Throughout the duration of this project, I have effectively utilized Excel to carry out tasks such as data cleansing, processing, analysis, and data visualization. These efforts have enabled me to extract valuable insights from the data in alignment with the principles of the Google Data Analytics Certification program.
+
+---
+
+## REFERENCES
+
+**Emmanuel Anene**: Data Analytics Project: Sales Analysis Report [LINK](https://emmanuelanenee.medium.com/data-analytics-project-sales-analysis-report-7a718049fecc)
+
+**Google Data Analytics Professional Certificate**.
 
 
 

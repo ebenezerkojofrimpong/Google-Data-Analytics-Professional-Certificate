@@ -108,10 +108,9 @@ This phase of the analysis process includes cleaning the data and making sure it
 
 A summary of the cleaning and manipulation done to the data is presented below:
 
-1.	Removed 5 Null values which reduced the number of rows from 5,719,877  to 9994.
-2.	No blank row found in dataset.
-3.	Checked for consistency of ship_date and order_date (Nested the IF() and OR() functions to ensure ship_date is greater than or equal to order_date).
-4.	Changed sales and profit columns General datatype to currency datatype.
+1.	Removed 1,388,170 Null values which reduced the number of Observations from 5,719,877  to 4,331,707.
+2.	Checked for consistency of ship_date and order_date (Nested the IF() and OR() functions to ensure ship_date is greater than or equal to order_date).
+3.	Changed sales and profit columns General datatype to currency datatype.
 
 The Data Cleaning Process:
 
@@ -188,7 +187,123 @@ FROM combined_data;
 
 ---
 
+2. Removing Null values alongside adding ride length, day of week, month and date columns to a temporary table
 
+```sql
+------- REMOVING NULL AND BLANK VALUES
+CREATE OR REPLACE TEMP TABLE cleaned_combined_data1 AS
+WITH cleaned_combined_data AS (
+  SELECT
+    ride_id,
+    rideable_type,
+    started_at,
+    ended_at,
+    start_station_name,
+    start_statiion_id,
+    end_station_name,
+    end_station_id,
+    start_lat,
+    start_lng,
+    end_lat,
+    end_lng,
+    member_casual 
+  FROM combined_data 
+  
+  WHERE 
+    ride_id IS NOT NULL 
+    AND rideable_type IS NOT NULL
+    AND started_at IS NOT NULL
+    AND ended_at IS NOT NULL  
+    AND start_station_name IS NOT NULL
+    AND start_statiion_id IS NOT NULL  
+    AND end_station_name IS NOT NULL
+    AND end_station_id IS NOT NULL   
+    AND start_lat IS NOT NULL
+    AND start_lng IS NOT NULL
+    AND end_lat IS NOT NULL 
+    AND end_lng IS NOT NULL
+    AND member_casual IS NOT NULL
+
+)
+
+------- CREATING ride_length and day_of_week COLUMNS
+  SELECT
+    *,
+    DATETIME_DIFF(ended_at, started_at, MINUTE) AS ride_length_minutes,
+    EXTRACT(DAYOFWEEK FROM started_at) AS day_of_week1,
+    EXTRACT(MONTH FROM started_at) AS month1,
+    EXTRACT(DATE FROM started_at) AS date
+      FROM cleaned_combined_data;
+
+```
+
+3. Converting day of week and month columns, removing inconsistent ride length values alongside adding time period column to a temporary table.
+
+```sql
+------ CONVERTING DAY OF WEEK
+CREATE OR REPLACE TEMP TABLE data_with_day_of_week1 AS
+WITH data_with_day_of_week1 AS (
+  SELECT
+    *,
+    CASE
+      WHEN day_of_week1 = 1 THEN 'Sunday'
+      WHEN day_of_week1 = 2 THEN 'Monday'
+      WHEN day_of_week1 = 3 THEN 'Tuesday'
+      WHEN day_of_week1 = 4 THEN 'Wednesday'
+      WHEN day_of_week1 = 5 THEN 'Thursday'
+      WHEN day_of_week1 = 6 THEN 'Friday'
+  ELSE 'Saturday'
+  END AS day_of_week,
+     CASE
+      WHEN day_of_week1 IN (1, 7) THEN 'weekend'
+      ELSE 'weekday'
+    END AS time_period,
+  CASE
+      WHEN month1 = 1 THEN 'January'
+      WHEN month1 = 2 THEN 'February'
+      WHEN month1 = 3 THEN 'March'
+      WHEN month1 = 4 THEN 'April'
+      WHEN month1 = 5 THEN 'May'
+      WHEN month1 = 6 THEN 'June'
+      WHEN month1 = 7 THEN 'July'
+      WHEN month1 = 8 THEN 'August'
+      WHEN month1 = 9 THEN 'September'
+      WHEN month1 = 10 THEN 'October'
+      WHEN month1 = 11 THEN 'November'
+  ELSE 'December'
+  END AS  month     
+FROM cleaned_combined_data1
+
+)
+
+
+------- REMOVING INCONSISTENT ride_length VALUES
+SELECT
+    *
+   FROM data_with_day_of_week1
+WHERE
+  ride_length_minutes > 1;
+
+```
+
+4. Removing the start_lat, start_lng, end_lat and end_lng columns since we won't need them in the analysis.
+
+```sql
+------- REMOVING start_lat, start_lng, end_lat, and end_long COLUMNS SINCE WE WON'T NEED THEM
+CREATE OR REPLACE TEMP TABLE final_data AS
+WITH final_data1 AS (
+  SELECT
+    * EXCEPT(start_lat, start_lng, end_lat, end_lng )
+  FROM data_with_day_of_week1
+  ORDER BY
+    started_at
+
+)
+
+SELECT *
+FROM final_data1;
+
+```
 
 
 

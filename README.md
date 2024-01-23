@@ -542,7 +542,9 @@ Members are prominently present on popular routes, similar to patterns observed 
 ---
 
 ## ACT
-Upon completion of data processing, analysis, and insight dissemination, the conclusive phase involves formulating a well-aligned course of action for Cyclistic Bike-Share, congruent with its business goals and mission. My recommendations are as follows:
+Upon completion of data processing, analysis, and insight dissemination, the conclusive phase involves formulating a well-aligned course of action for Cyclistic Bike-Share, congruent with its business goals and mission. 
+
+My recommendations are as follows:
 
 1. Highlight the benefits of membership by making sure casual riders are aware of the benefits of becoming a member, such as discounted ride rates.
 

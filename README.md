@@ -373,7 +373,7 @@ ORDER BY
 ```
 
 [](Average_Ride_Length_by_Month_and_Day)
-![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/b50a942d-9102-4aa8-a493-b6e4b7912cce)
+![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/54cb8c23-1961-4527-8fc7-c3deb99a1f30)
 
 The "average ride length by month" chart shows that January has the shortest rides for both member and casual riders. August is the peak month for member ride length, while casual riders have their longest average rides in July. From the August and July high points, there is a decreasing trend in average ride length for both members and casuals that continues through November and December.
 
@@ -384,7 +384,7 @@ The "average ride length by day" chart shows member riders have the shortest ave
 
 
 [](Total_Rides_by_Month_and_Day)
-![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/293a836d-8e47-4123-a0bb-4ccfe1a168ca)
+![Dashboard 4](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/c3be9230-6dbb-428c-b9fe-64995e7d98ea)
 
 The "total rides by month" chart shows January has the lowest total number of rides for both member and casual riders. For members, the peak in total rides occurs in August, while casual riders reach their peak total rides in July. There is a decreasing trend through December for total rides among both member and casual rider segments.
 

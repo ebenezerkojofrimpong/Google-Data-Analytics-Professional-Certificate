@@ -44,7 +44,7 @@ This questions will guide the future marketing program:
       - Are there distinct preferences or behaviors in terms of bike usage during weekdays versus weekends for annual members and casual riders?
   
 ### Business Task
-Analyze and leverage key drivers of sales performance, including product contribution to sales, seasonal sales patterns, and customer segmentation.
+The primary business objective is to maximize the number of annual memberships, and the proposed strategy involves converting casual riders into annual members.
 
 ### Key Stakeholders
 - **Lily Moreno**: The director of marketing and manager. Moreno is responsible for the development of campaigns and

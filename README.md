@@ -237,6 +237,9 @@ WITH cleaned_combined_data AS (
 
 ```
 
+---
+
+
 3. Converting day of week and month columns, removing inconsistent ride length values alongside adding time period column to a temporary table.
 
 ```sql
@@ -286,6 +289,9 @@ WHERE
 
 ```
 
+---
+
+
 4. Removing the start_lat, start_lng, end_lat and end_lng columns since we won't need them in the analysis.
 
 ```sql
@@ -305,6 +311,7 @@ FROM final_data1;
 
 ```
 
+---
 
 
 ## **ANALYZE**

@@ -109,8 +109,9 @@ This phase of the analysis process includes cleaning the data and making sure it
 A summary of the cleaning and manipulation done to the data is presented below:
 
 1.	Removed 1,388,170 Null values which reduced the number of Observations from 5,719,877  to 4,331,707.
-2.	Checked for consistency of ship_date and order_date (Nested the IF() and OR() functions to ensure ship_date is greater than or equal to order_date).
-3.	Changed sales and profit columns General datatype to currency datatype.
+2.	Added ride length, month, day of week, date and time periiod columns to aid the analysis process.
+3.	Removed inconsistent ride length values.
+4.	Removed the start_lat, start_lng, end_lat and end_lng columns since we won't need them in the analysis.
 
 The Data Cleaning Process:
 

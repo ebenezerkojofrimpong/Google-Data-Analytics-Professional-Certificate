@@ -372,23 +372,37 @@ ORDER BY
 
 ```
 
-[](Average_Ride_Length_by_Month_and_Day)
-![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/54cb8c23-1961-4527-8fc7-c3deb99a1f30)
+[](Average_Ride_Length_by_Month)
+![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/ed13127c-c920-49a2-be91-235ec7e64862)
 
-The "average ride length by month" chart shows that January has the shortest rides for both member and casual riders. August is the peak month for member ride length, while casual riders have their longest average rides in July. From the August and July high points, there is a decreasing trend in average ride length for both members and casuals that continues through November and December.
+January has the shortest rides for both member and casual riders. August is the peak month for member ride length, while casual riders have their longest average rides in July. From the August and July high points, there is a decreasing trend in average ride length for both members and casuals that continues through November and December.
 
-The "average ride length by day" chart shows member riders have the shortest average ride times on Mondays, likely due to individuals beginning their workweek. Across the week, member ride lengths remain steady with the highest averages on Saturdays and Sundays. In contrast, casual riders reach their lowest point midweek on Wednesdays and hit their peaks on the weekends along with members. 
+---
+
+[](Average_Ride_Length_by_Day)
+![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/2c9bc636-1b96-4360-b56e-8c51fc485610)
+
+Member riders have the shortest average ride times on Mondays, likely due to individuals beginning their workweek. Across the week, member ride lengths remain steady with the highest averages on Saturdays and Sundays. In contrast, casual riders reach their lowest point midweek on Wednesdays and hit their peaks on the weekends along with members. 
 
 
 ---
 
 
-[](Total_Rides_by_Month_and_Day)
-![Dashboard 4](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/c3be9230-6dbb-428c-b9fe-64995e7d98ea)
+[](Total_Rides_by_Month)
+![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/715b5e7c-a739-4f2b-9e26-61727537c495)
 
-The "total rides by month" chart shows January has the lowest total number of rides for both member and casual riders. For members, the peak in total rides occurs in August, while casual riders reach their peak total rides in July. There is a decreasing trend through December for total rides among both member and casual rider segments.
+January has the lowest total number of rides for both member and casual riders. For members, the peak in total rides occurs in August, while casual riders reach their peak total rides in July. There is a decreasing trend through December for total rides among both member and casual rider segments.
 
-The "total rides by day" chart shows Member ridership is highest on Thursdays, consistent on weekdays, and decreases on weekends. This indicates members are likely commuters using bikes to travel to and from work. In contrast, Casual ridership is lowest on Mondays, increases steadily during the week, and peaks on Saturdays. Casual users likely ride recreationally, with weekend days being most popular.
+---
+
+
+[](Total_Rides_by_Day)
+![Dashboard 3](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/2ac170ab-5af1-4d94-97dd-102d923dc181)
+
+Member ridership is highest on Thursdays, consistent on weekdays, and decreases on weekends. This indicates members are likely commuters using bikes to travel to and from work. In contrast, Casual ridership is lowest on Mondays, increases steadily during the week, and peaks on Saturdays. Casual users likely ride recreationally, with weekend days being most popular.
+
+
+
 
 ---
 
@@ -491,7 +505,7 @@ ORDER BY
 [](Q1_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/e5dfa5c1-182b-4647-9c1f-0b953ad7d3e4)
 
-During winter, Member ridership fluctuates during weekdays and peaks on Tuesdays and sharply declining on weekends, with a consistent average ride length throughout the week. In contrast, casual riders maintain low ride counts on weekdays but experience higher average ride lengths, especially with notable peaks on weekends.
+In Winter, Member usage peaks on Tuesdays and declines as the week goes on, with less of a decline on weekends but average ride length stays consistent throughout the week. Conversely, casual riders have fewer rides on weekdays but experience longer rides, particularly with notable peaks on weekends.
 
 [](Qtr1_Top_10_Rides_Member_Casual)
 ![Screenshot 2024-01-22 011916](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/7bae64cb-1d35-44e6-9eb5-98e8f59cca4c)
@@ -503,7 +517,7 @@ Members favor routes connecting residential areas to major work hubs and transit
 [](Q2_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/6183120b-b4da-47a7-8d42-ae77fe56f1d6)
 
-During spring, member ridership exhibits fluctuation throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
+In spring, member ridership gradually increases from Monday, reaching a peak on Thursdays and declining from Friday through the weekends while maintaining a consistent average ride length. Conversely, casual ridership shows fluctuations in ride counts on weekdays, peaking on Saturdays, and exhibits higher average ride lengths, especially with noticeable peaks on weekends.
 
 
 [](Qtr2_Top_10_Rides_Member_Casual)
@@ -516,7 +530,7 @@ For members, there is a significant presence of recreational routes in addition 
 [](Q3_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/bc78a446-a391-40f5-a131-8af4cfdede3e)
 
-During spring, member ridership exhibits fluctuation throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
+In Summer, member ridership exhibits fluctuation throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
 
 
 
@@ -530,7 +544,7 @@ Members show a notable presence on popular routes, resembling those observed dur
 [](Q4_Total_Ride_and_Average_Ride)
 ![Dashboard 2](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/4d3403ca-ae05-4550-b6be-81b67454a48b)
 
-During spring, member ridership exhibits fluctuations throughout weekdays, reaching a peak on Thursdays and declining on weekends, while maintaining a consistent average ride length. In contrast, casual ridership displays ride count fluctuations on weekdays, peaking on Saturdays, and demonstrates higher average ride lengths, particularly with noticeable peaks on weekends.
+During Autumn, member ridership reaches peaks on Tuesdays, Wednesdays, and Thursdays but experiences a decline from Friday through weekends. Throughout this period, members maintain a consistent average ride length. On the contrary, casual ridership exhibits fluctuations in ride counts during weekdays, with a peak on Saturdays, and showcases higher average ride lengths, notably peaking on weekends.
 
 
 [](Qtr4_Top_10_Rides_Member_Casual)

@@ -1,6 +1,6 @@
 # Google Data Analytics Professional Certificate - Capstone Project 1 - Cyclistic bike-share case study
 ## Ebenezer Kojo Frimpoong
-## 01/22/24
+## January, 22, 2024
 
 ---
 

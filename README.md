@@ -26,7 +26,7 @@ We will resolve this case following this methodology:
 ## **ASK**
 This phase involves defining the issue to be solved, identifying stakeholders and what their expectations from the project are.
 
-This questions will guide the future marketing program:
+These questions will guide the future marketing program:
 1. How do annual members and casual riders use Cyclistic bikes differently?
      
       - How frequently do annual members and casual riders utilize Cyclistic bikes within a given time frame?

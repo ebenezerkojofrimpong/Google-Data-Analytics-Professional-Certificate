@@ -26,6 +26,8 @@ We will resolve this case following this methodology:
 ## **ASK**
 This phase involves defining the issue to be solved, identifying stakeholders and what their expectations from the project are.
 
+<br>
+
 These questions will guide the future marketing program:
 1. How do annual members and casual riders use Cyclistic bikes differently?
      
@@ -60,6 +62,8 @@ recommended marketing program.
 
 ## PREPARE
 Involves collecting data and information and ensuring it satisfies necessary parameters.
+
+<br>
 
 ### Data Location
 I'm using all the data for the 12 months of the year 2023. Data is stored in CSV file available [here](https://divvy-tripdata.s3.amazonaws.com/index.html). The data is public and made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement). The privacy of the riders is safeguarded as there are no IDs and it's not possible to identify the riders.
@@ -105,6 +109,8 @@ The tools used in this project are BigQuery and Tableau.
 
 ## PROCESS
 This phase of the analysis process includes cleaning the data and making sure it is fit for purpose. As well as making any modifications necessary.
+
+<br>
 
 A summary of the cleaning and manipulation done to the data is presented below:
 
@@ -319,6 +325,7 @@ FROM final_data1;
 
 In this phase we analyze the data using statistical methods to find patterns, relationships, and trends.
 
+<br>
 
 **Outlined below are the key takeaways derived from the analysis of the data:**
 

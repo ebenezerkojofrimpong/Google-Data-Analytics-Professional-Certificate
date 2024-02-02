@@ -102,7 +102,7 @@ The dataset contains 5,719,877 Observations and 13 Attributes.
 ---
 
 ## Tools
-The tools used in this project are BigQuery and Tableau.
+The tools used in this project are **BigQuery** and **Tableau**.
 
 ---
 

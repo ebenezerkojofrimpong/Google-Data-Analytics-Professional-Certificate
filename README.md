@@ -1,10 +1,20 @@
 # Google Data Analytics Professional Certificate - Capstone Project 1 - Cyclistic bike-share case study
+
+<div align = "center">
+     
 ## Ebenezer Kojo Frimpoong
 ## January, 22, 2024
 
+</div>
+
+
 ---
 
+<div align = "center">
+
 ## Analysis On  Bike Sharing Data Using SQL and Tableau
+
+</div>
 
 [](bike_share_pic)
 ![the-little-yellow-car-2652215_1280](https://github.com/ziraefrimpong1/Google-Data-Analytics-Professional-Certificate/assets/154938134/35438ca2-395c-4388-899a-ac919f0528de)
